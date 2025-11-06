@@ -88,11 +88,6 @@ public class Notebook {
             return;
         }
 
-        // geser catatan ke kiri
-        for (int i = index - 1; i < count - 1; i++) {
-            notes[i] = notes[i + 1];
-        }
-        count--;
-        System.out.println("Catatan berhasil dihapus!");
+   
     }
 }
